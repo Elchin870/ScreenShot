@@ -9,7 +9,7 @@ namespace Server
         static void Main(string[] args)
         {
             
-            var ip = IPAddress.Parse("192.168.0.215");
+            var ip = IPAddress.Loopback;
             var port = 27001;
             var ep = new IPEndPoint(ip, port);
 
